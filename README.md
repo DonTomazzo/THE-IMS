@@ -1,43 +1,48 @@
 Inventory Management System (C# Console)
-Ett enkelt konsolbaserat lagerhanteringssystem utvecklat i C# för att effektivt hålla reda på produkter, lagernivåer och grundläggande lageroperationer. Perfekt för småskalig inventariehantering.
+A simple console-based inventory management system developed in C# to efficiently keep track of products, stock levels, and basic inventory operations. Perfect for small-scale inventory management.
 
-Funktioner
-Lägg till produkt: Möjlighet att lägga till nya produkter med namn, pris och initial lagermängd.
-Visa lager: Listar alla produkter i lagret med deras aktuella information.
-Uppdatera lagermängd: Justera lagernivån för befintliga produkter (öka/minska).
-Ta bort produkt: Ta bort produkter från lagret.
-Sök produkt: Sök efter produkter baserat på namn.
-Intuitiv meny: Användarvänlig konsolmeny för enkel navigering.
+Features
+Add Product: Ability to add new products with a name, price, and initial stock quantity.
+View Inventory: Lists all products in the inventory with their current information.
+Update Stock Quantity: Adjust the stock level for existing products (increase/decrease).
+Delete Product: Remove products from the inventory.
+Search Product: Search for products based on their name.
+Intuitive Menu: User-friendly console menu for easy navigation.
+
 Installation
-För att komma igång med projektet behöver du följande:
+To get started with the project, you'll need the following:
 
-Förutsättningar
-Visual Studio: Rekommenderas (t.ex. Visual Studio 2019 eller senare) med .NET Desktop Development-arbetsbelastningen installerad.
-.NET SDK: Se till att du har rätt .NET SDK installerad för projektets målramverk (t.ex. .NET 6.0, .NET 7.0 eller .NET 8.0). Du kan kontrollera detta i InventoryManagementSystem.csproj-filen.
-Steg
-Klona repot: Öppna din terminal eller kommandotolk och klona projektet:
+Prerequisites
+Visual Studio: Recommended (e.g., Visual Studio 2019 or later) with the .NET Desktop Development workload installed.
+.NET SDK: Ensure you have the correct .NET SDK installed for the project's target framework (e.g., .NET 6.0, .NET 7.0, or .NET 8.0). You can check this in the InventoryManagementSystem.csproj file.
+Steps
+Clone the Repository: Open your terminal or command prompt and clone the project:
+
+Bash
 
 git clone https://github.com/DonTomazzo/the-ims-csharp.git
 cd the-ims-csharp
-Öppna i Visual Studio:
+Open in Visual Studio:
 
-Öppna InventoryManagementSystem.sln-filen i Visual Studio.
-Visual Studio bör automatiskt återställa alla nödvändiga NuGet-paket.
-Bygg projektet:
+Open the InventoryManagementSystem.sln file in Visual Studio.
+Visual Studio should automatically restore all necessary NuGet packages.
+Build the Project:
 
-I Visual Studio, välj "Build" > "Build Solution" (eller tryck Ctrl+Shift+B).
+In Visual Studio, select "Build" > "Build Solution" (or press Ctrl+Shift+B).
 
-========== Lagerhanteringssystem ==========
-1. Lägg till produkt
-2. Uppdatera en produkt
-3. Radera en produkt
-4. Visa alla produkter
-5. Generera rapport
-6. Avsluta
-   
-Välj ett alternativ:
-Välj ett nummer från menyn och tryck Enter för att utföra en åtgärd.
-Följ anvisningarna i konsolen för att mata in produktinformation, ID:n, lagermängder etc.
+Usage
+When the application starts, you'll be greeted by a main menu like this:
 
-Kontakt: tomas.mauritzon@gmail.com
+========== Inventory Management System ==========
+1. Add Product
+2. Update Product
+3. Delete Product
+4. View All Products
+5. Generate Report
+6. Exit
+Choose an option:
+Choose a number from the menu and press Enter to perform an action.
+Follow the prompts in the console to input product information, IDs, stock quantities, etc.
 
+Contact
+For any questions or inquiries, please contact me at tomas.mauritzon@gmail.com.
