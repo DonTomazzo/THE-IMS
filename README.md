@@ -1,6 +1,9 @@
 Inventory Management System (C# Console)
 A simple console-based inventory management system developed in C# to efficiently keep track of products, stock levels, and basic inventory operations. Perfect for small-scale inventory management.
 
+Commercial
+https://www.youtube.com/watch?v=WJ6hCbFmq14
+
 Features
 Add Product: Ability to add new products with a name, price, and initial stock quantity.
 View Inventory: Lists all products in the inventory with their current information.
